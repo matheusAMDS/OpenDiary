@@ -23,7 +23,7 @@ const authLink = setContext((_, { headers }) => {
 
 const cache = new InMemoryCache()
 const uploadLink = new createUploadLink({ 
-  uri: 'http://localhost:4000/graphql'
+  uri: 'https://open-diary-backend.herokuapp.com/graphql'
 })
 const client = new ApolloClient({ 
   cache, 
